@@ -7,6 +7,6 @@
         public string Surname { get; set; }
         public string Sex { get; set; }
         public string Subject { get; set; }
-        public ICollection<TeacherPupil> TeacherPupils { get; set; }
+        public ICollection<Pupil> Pupils { get; set; }
     }
 }
